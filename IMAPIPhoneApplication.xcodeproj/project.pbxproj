@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66B6546F182A631800242AB1 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B6546E182A631800242AB1 /* ContentViewController.m */; };
 		66F53E96182613DC00562C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F53E95182613DC00562C04 /* Foundation.framework */; };
 		66F53E98182613DC00562C04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F53E97182613DC00562C04 /* CoreGraphics.framework */; };
 		66F53E9A182613DC00562C04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F53E99182613DC00562C04 /* UIKit.framework */; };
@@ -14,13 +15,14 @@
 		66F53EA2182613DC00562C04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F53EA1182613DC00562C04 /* main.m */; };
 		66F53EA6182613DD00562C04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F53EA5182613DD00562C04 /* AppDelegate.m */; };
 		66F53EA9182613DD00562C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F53EA7182613DD00562C04 /* Main.storyboard */; };
-		66F53EAC182613DD00562C04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F53EAB182613DD00562C04 /* ViewController.m */; };
 		66F53EAE182613DD00562C04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F53EAD182613DD00562C04 /* Images.xcassets */; };
 		66F53EB5182613DD00562C04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F53EB4182613DD00562C04 /* XCTest.framework */; };
 		66F53EB6182613DD00562C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F53E95182613DC00562C04 /* Foundation.framework */; };
 		66F53EB7182613DD00562C04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F53E99182613DC00562C04 /* UIKit.framework */; };
 		66F53EBF182613DD00562C04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F53EBD182613DD00562C04 /* InfoPlist.strings */; };
 		66F53EC1182613DD00562C04 /* IMAPIPhoneApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F53EC0182613DD00562C04 /* IMAPIPhoneApplicationTests.m */; };
+		66F53ECC1826F73C00562C04 /* LoginScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F53ECB1826F73C00562C04 /* LoginScreenViewController.m */; };
+		66F53ECF182767D500562C04 /* MailListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F53ECE182767D500562C04 /* MailListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66B6546D182A631800242AB1 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		66B6546E182A631800242AB1 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		66F53E92182613DC00562C04 /* IMAPIPhoneApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMAPIPhoneApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F53E95182613DC00562C04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66F53E97182613DC00562C04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +49,16 @@
 		66F53EA4182613DD00562C04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66F53EA5182613DD00562C04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66F53EA8182613DD00562C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		66F53EAA182613DD00562C04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		66F53EAB182613DD00562C04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		66F53EAD182613DD00562C04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66F53EB3182613DD00562C04 /* IMAPIPhoneApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMAPIPhoneApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F53EB4182613DD00562C04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		66F53EBC182613DD00562C04 /* IMAPIPhoneApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMAPIPhoneApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		66F53EBE182613DD00562C04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66F53EC0182613DD00562C04 /* IMAPIPhoneApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAPIPhoneApplicationTests.m; sourceTree = "<group>"; };
+		66F53ECA1826F73C00562C04 /* LoginScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginScreenViewController.h; path = ../LoginScreenViewController.h; sourceTree = "<group>"; };
+		66F53ECB1826F73C00562C04 /* LoginScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginScreenViewController.m; path = ../LoginScreenViewController.m; sourceTree = "<group>"; };
+		66F53ECD182767D500562C04 /* MailListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailListViewController.h; path = ../MailListViewController.h; sourceTree = "<group>"; };
+		66F53ECE182767D500562C04 /* MailListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailListViewController.m; path = ../MailListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +118,15 @@
 		66F53E9B182613DC00562C04 /* IMAPIPhoneApplication */ = {
 			isa = PBXGroup;
 			children = (
+				66F53EA7182613DD00562C04 /* Main.storyboard */,
+				66F53ECD182767D500562C04 /* MailListViewController.h */,
+				66F53ECE182767D500562C04 /* MailListViewController.m */,
+				66F53ECA1826F73C00562C04 /* LoginScreenViewController.h */,
+				66F53ECB1826F73C00562C04 /* LoginScreenViewController.m */,
+				66B6546D182A631800242AB1 /* ContentViewController.h */,
+				66B6546E182A631800242AB1 /* ContentViewController.m */,
 				66F53EA4182613DD00562C04 /* AppDelegate.h */,
 				66F53EA5182613DD00562C04 /* AppDelegate.m */,
-				66F53EA7182613DD00562C04 /* Main.storyboard */,
-				66F53EAA182613DD00562C04 /* ViewController.h */,
-				66F53EAB182613DD00562C04 /* ViewController.m */,
 				66F53EAD182613DD00562C04 /* Images.xcassets */,
 				66F53E9C182613DC00562C04 /* Supporting Files */,
 			);
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F53EAC182613DD00562C04 /* ViewController.m in Sources */,
 				66F53EA6182613DD00562C04 /* AppDelegate.m in Sources */,
+				66B6546F182A631800242AB1 /* ContentViewController.m in Sources */,
+				66F53ECF182767D500562C04 /* MailListViewController.m in Sources */,
 				66F53EA2182613DC00562C04 /* main.m in Sources */,
+				66F53ECC1826F73C00562C04 /* LoginScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +472,7 @@
 				66F53EC6182613DD00562C04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66F53EC7182613DD00562C04 /* Build configuration list for PBXNativeTarget "IMAPIPhoneApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				66F53EC9182613DD00562C04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
